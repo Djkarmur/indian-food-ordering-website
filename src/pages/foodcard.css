@@ -1,0 +1,82 @@
+.maincard{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 4px 12px -3px rgba(0,0,0,0.1);
+    width:100%;
+    max-width:300px;
+    border-radius: 10px;
+    margin:20px;
+    background-color: #E8F6EF;
+}
+.mainmenu{
+    background-color: #D9EEEC;
+}
+.mainmenu > h1{
+    padding: 10px;
+    font-size: 40px;
+    text-align:center;
+    background-color: #64B2CD;
+    color:#D9EEEC;
+}
+.foodimages{
+    padding:0px;
+    width:100%;
+    height:30vh;
+    border-radius: 10px 10px 0px 0px;
+}
+.menulist{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.navcard{
+    display:flex;
+    padding:10px;
+}
+.navcard > h2{
+    margin-right: 40px;
+    font-size:18px;
+    
+}
+.navcard > h3{
+    font-size: 15px;
+}
+.cardcontent > p::-webkit-scrollbar{
+    display: none;
+   
+}
+.cardcontent > p{
+    height: 90px;
+    overflow:scroll;
+    margin:10px;
+    font-size: 15px;
+}
+.currency > svg{
+   font-size: 13px;
+}
+.buttons{
+    display:flex;
+    justify-content: space-around;
+    padding:5px;
+}
+.buttons > button{
+    
+    border-radius: 5px;
+    transition: linear 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.buy{
+    background-color: #78DEC7;
+    padding:10px 13px;
+    border:none;
+}
+.add{
+    background-color: #D77FA1;
+    padding:10px 15px;
+    border:none;
+}
+
