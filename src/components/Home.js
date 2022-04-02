@@ -11,7 +11,7 @@ const Home = () =>{
             <h1>Food Diversity</h1>
             <p>INDIAN FOOD AT CLICK.</p>     
             <button className='mainbutton'>
-                <Link to="/">Order Now</Link>
+                <Link to="/menu">Order Now</Link>
             </button>
           </div>
 

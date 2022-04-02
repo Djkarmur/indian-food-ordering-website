@@ -17,9 +17,9 @@
     border-radius: 50px;
 }
 .content {
+    display:flex;
     font-size:20px;
-    
-    margin-top: 20px;
+    align-items: center;    
 }
 .content > a{
     margin-left: 40px;
@@ -38,7 +38,7 @@
   @media (max-width: 700px) {
     .nav > .content {
       position: absolute;
-      top: 50px;
+      top: 10vh;
       padding:20px;
       display: flex;
       flex-direction: column;
@@ -64,6 +64,7 @@
   
     .nav > .content.open {
         transform: translateX(0);
+        
     }
   
     .nav > .nav-toggle {
@@ -82,6 +83,7 @@
       height: 2px;
       background: #ffffff;
       transition: all 0.45s ease-in-out;
+      margin-top: 1.8vh;
     }
   
     .nav-toggle > .bar::before,
@@ -108,6 +110,7 @@
     .nav-toggle.open > .bar {
         transform: translateX(-40px);
         background: transparent;
+        
     }
   
     .nav-toggle.open > .bar::before {
