@@ -39,6 +39,7 @@
     .nav > .content {
       position: absolute;
       top: 10vh;
+      bottom:15vh;
       padding:20px;
       display: flex;
       flex-direction: column;
